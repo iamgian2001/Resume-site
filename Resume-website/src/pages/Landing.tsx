@@ -102,7 +102,7 @@ function Landing() {
           </div>
         </div>
       </section>
-      <section className="flex flex-wrap md:flex-nowrap space-x-2.5 space-y-10 my-10">
+      <section className="flex flex-wrap md:flex-nowrap space-x-2.5 space-y-10 lg:space-x-10 my-10">
         <section className="w-full md:w-fit p-3 h-fit relative border bg-linear-to-br  from-background via-neutral-800 to-green-950 border-accent rounded-2xl shadow-lg justify-center">
           <div className="absolute bg-[url(/waves2.svg)] bg-cover inset-0 opacity-20  rounded-2xl  w-full h-full"></div>
           {/* Experience */}
@@ -312,9 +312,6 @@ function Landing() {
           </div>
         </div>
       </section>
-      <footer>
-        <text>This site can be viewed via</text>
-      </footer>
     </div>
   );
 }
