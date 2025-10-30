@@ -98,7 +98,7 @@ function Landing() {
 
           <div className="flex items-center justify-center mx-6 md:w-2/5">
             {/*profilepic*/}
-            <div className="bg-[url(/profilepic.png)] opacity-80 bg-green-200  bg-cover w-70 h-80 md:w-90 md:h-100 lg:w-110 lg:h-120  mask-cover mask-[url(/mask-polygon.svg)]"></div>
+            <div className="bg-[url(/profilepic.webp)] opacity-80 bg-green-200  bg-cover w-70 h-80 md:w-90 md:h-100 lg:w-110 lg:h-120  mask-cover mask-[url(/mask-polygon.svg)]"></div>
           </div>
         </div>
       </section>
@@ -312,6 +312,9 @@ function Landing() {
           </div>
         </div>
       </section>
+      <footer>
+        <text>This site can be viewed via</text>
+      </footer>
     </div>
   );
 }
