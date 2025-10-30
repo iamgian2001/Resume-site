@@ -10,7 +10,7 @@ import { BsGithub } from "react-icons/bs";
 
 function Landing() {
   return (
-    <div className="bg-gradient p-6 md:p-8 lg:p-15 h-fit flex flex-col justify-center w-full">
+    <div className="bg-[url(/page-turner.svg)] bg-cover p-6 md:p-8 lg:p-15 h-fit flex flex-col justify-center w-full">
       <div className="font-heading absolute text-sm lg:text-lg flex flex-col space-y-1.5 bg-primary p-4 top-0 right-0">
         <div className="flex flex-row items-center space-x-2">
           <FiPhoneCall />
