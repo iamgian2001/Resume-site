@@ -123,7 +123,7 @@ function Landing() {
               </div>
               <div className="flex flex-col text-textDark w-full p-3">
                 <p className="font-heading ">
-                  UI/UX Designer & Wordpress developer (Internship)
+                  UI/UX Designer & Wordpress Developer (Internship)
                 </p>
                 <p className="font-body  text-accent w-fit">01/2025-06/2025</p>
                 <p className="font-body  italic  text-primary w-fit">
