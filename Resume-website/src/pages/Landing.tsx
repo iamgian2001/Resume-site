@@ -1,5 +1,5 @@
 import HtmlLogo from "../assets/html5.svg?react";
-import CssLogo from "../assets/css.svg?react";
+import TwLogo from "../assets/tailwind-logo.svg?react";
 import ReactLogo from "../assets/react.svg?react";
 import TsLogo from "../assets/typescript.svg?react";
 import JsLogo from "../assets/java.svg?react";
@@ -73,8 +73,8 @@ function Landing() {
                   <HtmlLogo className="bg-primary border border-neutral-800 w-6 h-6 rounded-md" />
                 </div>
                 <div className=" w-fit  h-fit border px-2 py-1 lg:px-3 lg:py-2  flex items-center rounded-2xl border-accent text-textDark font-light flex-row space-x-2">
-                  <text className=" font-body">CSS</text>
-                  <CssLogo className="bg-primary  border-neutral-800  w-6 h-6 lg:w-8 lg:h-8 rounded-md" />
+                  <text className=" font-body">Tailwind</text>
+                  <TwLogo className="bg-primary  border-neutral-800  w-6 h-6 lg:w-8 lg:h-8 rounded-md" />
                 </div>
                 <div className=" w-fit  h-fit border px-2 py-1 lg:px-3 lg:py-2  flex items-center rounded-2xl border-accent text-textDark font-light flex-row space-x-2">
                   <text className="font-body">Javascript</text>
@@ -190,7 +190,7 @@ function Landing() {
                   HTML
                 </text>
                 <text className="w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  CSS
+                  Tailwind
                 </text>
                 <text className=" w-fit  h-fit  border font-body  px-2 py-1 items-center rounded-2xl border-accent= font-light">
                   Javascript
@@ -218,7 +218,7 @@ function Landing() {
                   Javascript
                 </text>
                 <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  CSS
+                  Tailwind
                 </text>
                 <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
                   Spring
@@ -243,7 +243,7 @@ function Landing() {
                   Javascript
                 </text>
                 <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  CSS
+                  Tailwind
                 </text>
                 <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
                   Spring Boot
