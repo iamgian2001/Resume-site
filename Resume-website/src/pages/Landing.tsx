@@ -70,7 +70,7 @@ function Landing() {
               <div className="flex p-3 space-x-2.5 flex-wrap space-y-2 text-sm lg:text-xl">
                 <div className=" w-fit  h-fit border px-2 py-1 lg:px-3 lg:py-2  flex items-center rounded-2xl border-accent text-textDark font-light flex-row space-x-2">
                   <text className=" font-body">HTML</text>
-                  <HtmlLogo className="bg-primary border border-neutral-800 w-6 h-6 rounded-md" />
+                  <HtmlLogo className="bg-primary border border-neutral-800 w-6 h-6 lg:w-8 lg:h-8 rounded-md" />
                 </div>
                 <div className=" w-fit  h-fit border px-2 py-1 lg:px-3 lg:py-2  flex items-center rounded-2xl border-accent text-textDark font-light flex-row space-x-2">
                   <text className=" font-body">Tailwind</text>
