@@ -221,7 +221,7 @@ function Landing() {
                   CSS
                 </text>
                 <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  Spring Boot
+                  Spring
                 </text>
                 <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
                   PostgreSQL
