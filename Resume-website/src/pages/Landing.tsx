@@ -89,7 +89,7 @@ function Landing() {
                   <TsLogo className="bg-primary w-6   border-neutral-800 h-6  lg:w-8 lg:h-8 rounded-md" />
                 </div>
                 <div className=" w-fit  h-fit border px-2 py-1 lg:px-3 lg:py-2 flex items-center rounded-2xl border-accent text-textDark font-light flex-row space-x-2">
-                  <text className=" font-body">Spring Boot</text>
+                  <text className=" font-body">Spring</text>
                   <SbLogo className="bg-primary w-6   border-neutral-800  h-6 lg:w-8 lg:h-8 rounded-md" />
                 </div>
               </div>
