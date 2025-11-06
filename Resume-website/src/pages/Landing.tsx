@@ -46,12 +46,12 @@ function Landing() {
                 FRESH GRADUATE
               </p>
               <p className="wrap-break-word w-fit lg:text-2xl font-body text-justify">
-                A Front-End Development and UI/UX Design Specialist focused on
-                the meticulous creation of high-fidelity user interfaces. My
-                expertise involves not only developing beautifully crafted UIs
-                but also applying rigorous attention to detail, iteratively
-                tweaking them to perfection to ensure exceptional user
-                experiences and pixel-perfect implementation.
+                My professional interests primarily encompass Front-End
+                Development, UI/UX Design, and Full-Stack Development. I am a
+                passion-driven developer with a strong aptitude for constructing
+                web applications, specializing in aesthetically superior UIs
+                owing to my keen eye for design and creativity. I am highly
+                adaptable and quickly integrate new technologies and frameworks.
               </p>
               <div className="flex flex-row justify-between w-full  text-sm lg:text-lg">
                 <div className="flex flex-row-reverse items-center ">
