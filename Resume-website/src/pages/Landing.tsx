@@ -253,6 +253,26 @@ function Landing() {
                 </text>
               </div>
             </div>
+            <div className="flex flex-col text-accent bg-background/80 w-fit h-fit p-3 border rounded-xl">
+              <p className="font-body font-light ">Timer App</p>
+              <div className="flex my-2 space-x-2.5 flex-wrap space-y-2">
+                <text className="w-fit  h-fit  border font-body t px-2 py-1 items-center rounded-2xl border-accent font-light">
+                  React
+                </text>
+                <text className="w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
+                  HTML
+                </text>
+                <text className=" w-fit  h-fit  border font-body  px-2 py-1 items-center rounded-2xl border-accent= font-light">
+                  Javascript
+                </text>
+                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
+                  Tailwind
+                </text>
+                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
+                  Motion
+                </text>
+              </div>
+            </div>
           </div>
         </div>
       </section>
