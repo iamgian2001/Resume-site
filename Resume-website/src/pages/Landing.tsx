@@ -10,8 +10,13 @@ import { BsGithub } from "react-icons/bs";
 
 function Landing() {
   return (
-    <div className="bg-[url(/page-turner.svg)] bg-cover p-6 md:p-8 lg:p-15 h-fit flex flex-col justify-center w-full">
-      <div className="font-heading absolute text-sm lg:text-lg flex flex-col space-y-1.5 bg-primary p-4 top-0 right-0">
+    <div className="bg-[url(/page-turner.svg)] relative bg-cover p-6 md:p-8 lg:p-15 h-fit flex flex-col justify-center w-full">
+      <div
+        className="bg-[url(/profilepic.webp)] absolute opacity-90 z-1 bg-green-200  mask-x-from-80% mask-x-to-100% bg-cover w-10/12 right-0
+       h-100 md:h-200 lg:h-500  top-15 md:top-5 mask-covermask-y-from-80% mask-y-to-100%"
+      ></div>
+
+      <div className="font-heading absolute text-xs md:text-sm lg:text-lg flex flex-col space-y-1.5 bg-primary p-4 top-0 right-0">
         <div className="flex flex-row items-center space-x-2">
           <FiPhoneCall />
           <text>+94775428654</text>
@@ -31,10 +36,10 @@ function Landing() {
           </a>
         </div>
       </div>
-      <section className="w-full  h-fit mt-40 flex flex-col items-center justify-center">
+      <section className="w-full  h-fit mt-40 flex flex-col z-10 2xl:mt-70 items-center justify-center">
         {/* Hero Section */}
-        <div className="flex flex-col-reverse md:flex-row w-full ">
-          <div className="md:w-3/5">
+        <div className="flex flex-col-reverse md:flex-row w-full items-center  ">
+          <div className="w-full md:w-7/12">
             {/*left*/}
             <div className="text-textDark flex flex-col space-y-3 w-full h-fit font-heading  font-light">
               <p className="wrap-break-word  w-fit text-5xl lg:text-7xl font-light tracking-widest">
@@ -96,13 +101,13 @@ function Landing() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center mx-6 md:w-2/5">
-            {/*profilepic*/}
+          {/*<div className="flex items-center justify-center mx-6 md:w-2/5">
             <div className="bg-[url(/profilepic.webp)] opacity-80 bg-green-200  bg-cover w-70 h-80 md:w-90 md:h-100 lg:w-110 lg:h-120  mask-cover mask-[url(/mask-polygon.svg)]"></div>
-          </div>
+          </div> */}
+          {/*profilepic*/}
         </div>
       </section>
-      <section className="flex flex-wrap md:flex-nowrap space-x-2.5 space-y-10 lg:space-x-10 my-10">
+      <section className="flex flex-wrap md:flex-nowrap space-x-2.5 z-10 space-y-10 lg:space-x-10 my-10">
         <section className="w-full md:w-fit p-3 h-fit relative border bg-linear-to-br  from-background via-neutral-800 to-green-950 border-accent rounded-2xl shadow-lg justify-center">
           <div className="absolute bg-[url(/waves2.svg)] bg-cover inset-0 opacity-20  rounded-2xl  w-full h-full"></div>
           {/* Experience */}
@@ -172,7 +177,7 @@ function Landing() {
         </section>
       </section>
 
-      <section className="w-fit p-5 h-fit  relative border bg-linear-to-br  from-background via-neutral-800 to-green-950 border-accent rounded-2xl mt-24 md:mt-12 shadow-lg justify-center">
+      <section className="w-fit p-5 h-fit z-10  relative border bg-linear-to-br  from-background via-neutral-800 to-green-950 border-accent rounded-2xl mt-24 md:mt-12 shadow-lg justify-center">
         <div className="absolute bg-[url(/waves2.svg)] bg-cover inset-0 opacity-10 z-0  rounded-2xl  w-full h-full"></div>
         {/* Projects */}
         <div className="flex flex-col z-10 w-fit h-fit">
@@ -276,7 +281,7 @@ function Landing() {
           </div>
         </div>
       </section>
-      <section className="my-10">
+      <section className="my-10 z-10">
         <h1 className="font-heading text-3xl lg:text-4xl  text-textDark font-light p-3">
           <span className="text-4xl text-primary font-semibold">A</span>cademic
           Work
@@ -309,10 +314,10 @@ function Landing() {
           </text>
         </div>
       </section>
-      <section className="my-10 w-auto">
+      <section className="my-10 w-auto z-10">
         <h1 className="font-heading text-3xl lg:text-4xl w-fit text-textDark font-light p-3">
           <span className="text-4xl text-primary font-semibold ">R</span>
-          eferences
+          eferees
         </h1>
         <div className="flex flex-col w-fit h-fit text-xs lg:text-lg font-heading  text-textDark p-3  space-y-4">
           <div className="flex flex-col bg-white/10 backdrop-blur-md border border-accent/20 rounded-2xl p-3 shadow-l">
