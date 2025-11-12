@@ -13,7 +13,7 @@ function Landing() {
     <div className="bg-[url(/page-turner.svg)] relative bg-cover p-6 md:p-8 lg:p-15 h-fit flex flex-col justify-center w-full">
       <div
         className="bg-[url(/profilepic.webp)] absolute opacity-90 z-1 bg-green-200  mask-x-from-80% mask-x-to-100% bg-cover w-10/12 right-0
-       h-100 md:h-200 lg:h-500  top-15 md:top-5 mask-covermask-y-from-80% mask-y-to-100%"
+       h-100 md:h-200 lg:h-400  top-15 md:top-5 mask-covermask-y-from-80% mask-y-to-100%"
       ></div>
 
       <div className="font-heading absolute text-xs md:text-sm lg:text-lg flex flex-col space-y-1.5 bg-primary p-4 top-0 right-0">
