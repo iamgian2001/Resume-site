@@ -7,8 +7,35 @@ import SbLogo from "../assets/springboot.svg?react";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMail } from "react-icons/md";
 import { BsGithub } from "react-icons/bs";
+import ProjectCard from "../components/ProjectCard";
 
 function Landing() {
+  const projects = [
+    {
+      title: "InternEase",
+      tech: ["HTML", "Tailwind", "Javascript", "PHP", "MySQL"],
+      desc: "Internship management system for the PDC of UCSC. Its just like HRM system but for handling student industrial placement tasks. Worked on both backend and the frontend.",
+      repo: "https://github.com/iamgian2001/InternEase",
+    },
+    {
+      title: "DriveEaze",
+      tech: ["React", "HTML", "JS", "Tailwind", "Spring", "PostgreSQL"],
+      desc: "Web Application for Samarasinghe motors. Tracks servicing vehicles, tracks assigned workers for vehicles. Automates enrollments of vehicles to the service station. I worked on the both frontend and the backend. Did UI/UX design for this project as well.",
+      repo: "https://github.com/Driveaze-3-rd-year-group-project/",
+    },
+    {
+      title: "NewCastle LMS",
+      tech: ["React", "HTML", "JS", "Tailwind", "Spring Boot", "PostgreSQL"],
+      desc: "A custom LMS in development. Its just a LMS nothing more nothing less it doesnt build linux nor launch a rocket to space. In other words a moodle clone.",
+      repo: "https://github.com/iamgian2001/Youth-University-Website",
+    },
+    {
+      title: "Timer App",
+      tech: ["React", "HTML", "JS", "Tailwind", "Motion"],
+      desc: "This just does timer/clock stuff for now.",
+      repo: "https://github.com/iamgian2001/Clock-App",
+    },
+  ];
   return (
     <div className="bg-[url(/page-turner.svg)] relative bg-cover p-6 md:p-8 lg:p-15 h-fit flex flex-col justify-center w-full">
       <div
@@ -108,7 +135,7 @@ function Landing() {
         </div>
       </section>
       <section className="flex flex-wrap md:flex-nowrap space-x-2.5 z-10 space-y-10 lg:space-x-10 my-10">
-        <section className="w-full md:w-fit p-3 h-fit relative border bg-linear-to-br  from-background via-neutral-800 to-green-950 border-accent rounded-2xl shadow-lg justify-center">
+        <section className="w-full md:w-fit p-3 h-fit relative  bg-linear-to-br  from-background via-neutral-800 to-green-950  rounded-2xl shadow-lg justify-center">
           <div className="absolute bg-[url(/waves2.svg)] bg-cover inset-0 opacity-20  rounded-2xl  w-full h-full"></div>
           {/* Experience */}
           <div className="flex flex-col z-10 ">
@@ -145,7 +172,7 @@ function Landing() {
             </div>
           </div>
         </section>
-        <section className="w-full p-3 h-fit md:w-fit relative border bg-linear-to-br  from-background via-neutral-800 to-green-950 border-accent rounded-2xl shadow-lg justify-center">
+        <section className="w-full p-3 h-fit md:w-fit relative  bg-linear-to-br  from-background via-neutral-800 to-green-950 rounded-2xl shadow-lg justify-center">
           <div className="absolute bg-[url(/waves2.svg)] bg-cover inset-0 opacity-20  rounded-2xl  w-full h-full"></div>
           {/* Education */}
           <div className="flex flex-col z-10 ">
@@ -177,110 +204,23 @@ function Landing() {
         </section>
       </section>
 
-      <section className="w-fit p-5 h-fit z-10  relative border bg-linear-to-br  from-background via-neutral-800 to-green-950 border-accent rounded-2xl mt-24 md:mt-12 shadow-lg justify-center">
+      <section className="w-fit p-5 h-fit z-10  relative  bg-linear-to-br  from-background via-neutral-800 to-green-950 rounded-2xl mt-24 md:mt-12 shadow-lg justify-center">
         <div className="absolute bg-[url(/waves2.svg)] bg-cover inset-0 opacity-10 z-0  rounded-2xl  w-full h-full"></div>
         {/* Projects */}
         <div className="flex flex-col z-10 w-fit h-fit">
-          <div className="font-heading text-3xl lg:text-4xl   w-fit text-textDark font-light p-3 mb-4 ">
+          <div className="font-heading text-3xl lg:text-4xl w-fit text-textDark font-light p-3 mb-4 ">
             <span className="text-4xl text-primary font-semibold">P</span>
             rojects
           </div>
-          <div className="flex flex-wrap md:flex-nowrap space-x-4 space-y-4 text-sm lg:text-xl">
-            <div className="flex flex-col flex-wrap text-accent bg-background/80 w-fit h-fit p-3 border rounded-xl">
-              <p className="font-body font-light">
-                InternEase - An Internship Management System for Universities
-              </p>
-              <div className="flex my-2 space-x-2.5 flex-wrap space-y-2">
-                <text className="w-fit  h-fit  border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  HTML
-                </text>
-                <text className="w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  Tailwind
-                </text>
-                <text className=" w-fit  h-fit  border font-body  px-2 py-1 items-center rounded-2xl border-accent= font-light">
-                  Javascript
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  PHP
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  MySQL
-                </text>
-              </div>
-            </div>
-            <div className="flex flex-col text-accent bg-background/80 w-fit h-fit p-3 border rounded-xl">
-              <p className="font-body font-light ">
-                DriveEaze - Web Application for Samarasinghe motors
-              </p>
-              <div className="flex my-2 space-x-2.5 flex-wrap space-y-2">
-                <text className="w-fit  h-fit  border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  React
-                </text>
-                <text className="w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  HTML
-                </text>
-                <text className=" w-fit  h-fit  border font-body  px-2 py-1 items-center rounded-2xl border-accent= font-light">
-                  Javascript
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  Tailwind
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  Spring
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  PostgreSQL
-                </text>
-              </div>
-            </div>
-            <div className="flex flex-col text-accent bg-background/80 w-fit h-fit p-3 border rounded-xl">
-              <p className="font-body font-light ">
-                NewCastle LMS (in-progress)
-              </p>
-              <div className="flex my-2 space-x-2.5 flex-wrap space-y-2">
-                <text className="w-fit  h-fit  border font-body t px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  React
-                </text>
-                <text className="w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  HTML
-                </text>
-                <text className=" w-fit  h-fit  border font-body  px-2 py-1 items-center rounded-2xl border-accent= font-light">
-                  Javascript
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  Tailwind
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  Spring Boot
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  PostgreSQL
-                </text>
-              </div>
-            </div>
-            <div className="flex flex-col text-accent bg-background/80 w-fit h-fit p-3 border rounded-xl">
-              <p className="font-body font-light ">Timer App</p>
-              <div className="flex my-2 space-x-2.5 flex-wrap space-y-2">
-                <text className="w-fit  h-fit  border font-body t px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  React
-                </text>
-                <text className="w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  HTML
-                </text>
-                <text className=" w-fit  h-fit  border font-body  px-2 py-1 items-center rounded-2xl border-accent= font-light">
-                  Javascript
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  Tailwind
-                </text>
-                <text className=" w-fit  h-fit border font-body  px-2 py-1 items-center rounded-2xl border-accent font-light">
-                  Motion
-                </text>
-              </div>
-            </div>
+          {/* Projects */}
+          <div className="flex w-full flex-wrap items-start lg:flex-none lg:flex-nowrapm lg:grid lg:grid-cols-2 gap-5 p-3">
+            {projects.map((p) => (
+              <ProjectCard key={p.title} {...p} />
+            ))}
           </div>
         </div>
       </section>
+
       <section className="my-10 z-10">
         <h1 className="font-heading text-3xl lg:text-4xl  text-textDark font-light p-3">
           <span className="text-4xl text-primary font-semibold">A</span>cademic
