@@ -14,7 +14,7 @@ export default function ProjectCard({
   repo,
 }: ProjectCardProps) {
   return (
-    <div className="flex flex-col text-accent bg-background/80 w-fit  2xl:max-w-2xl  h-fit p-5 border rounded-xl">
+    <div className="flex flex-col text-accent bg-background/80 w-full h-full   2xl:max-w-2xl  p-5 border rounded-xl">
       <p className="font-body text-md md:text-lg lg:text-xl 2xl:text-2xl my-3 font-semibold">
         {title}
       </p>
@@ -30,7 +30,7 @@ export default function ProjectCard({
         ))}
       </div>
 
-      <p className="font-body my-3 text-sm md:text-md 2xl:text-xl font-light">
+      <p className="font-body my-3 text-sm md:text-md 2xl:text-xl h-full font-light">
         {desc}
       </p>
 
