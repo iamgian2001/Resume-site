@@ -46,10 +46,6 @@ export default function Landing() {
 
   return (
     <>
-      <p className="bg-background text-textDark/60 px-2 ">
-        This is a static copy of my site. Visit my site to access the links:
-        https://geesara-resume.pages.dev/{" "}
-      </p>
       <div className="bg-[url(/page-turner.svg)] relative bg-cover p-6 md:p-8 lg:p-15 h-fit flex flex-col justify-center w-full">
         <div></div>
 
