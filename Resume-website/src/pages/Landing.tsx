@@ -46,7 +46,13 @@ export default function Landing() {
 
   return (
     <>
+      <p className="bg-background text-textDark/60 px-2 ">
+        This is a static copy of my site. Visit my site to access the links:
+        https://geesara-resume.pages.dev/{" "}
+      </p>
       <div className="bg-[url(/page-turner.svg)] relative bg-cover p-6 md:p-8 lg:p-15 h-fit flex flex-col justify-center w-full">
+        <div></div>
+
         <div
           className="bg-[url(/profilepic.webp)] absolute opacity-90 z-1 bg-primary  mask-x-from-80% mask-x-to-100% bg-cover w-10/12 right-0
        h-100 md:h-200 lg:h-400  top-15 md:top-5 mask-covermask-y-from-80% mask-y-to-100%"
